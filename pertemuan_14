@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan_14</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0%;
+            padding: 0%;
+            background-color: beige;
+        }
+        header{
+            background-color: antiquewhite;
+            color: black;
+            padding: 5px 2px;
+            text-align: center;
+        }
+    nav{
+      background-color: black;
+      overflow: hidden;
+    }
+    nav a{
+        float: left;
+        display: block;
+        color: beige;
+        text-align: center;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+    nav a:hover{
+        background-color: beige;
+    }
+    .container{
+        display: flex;
+        margin: 18px;
+    }
+    content{
+        flex: 2;
+        margin-right: 20px;
+        background-color: antiquewhite;
+        padding: 20px;
+        border-radius: 25px;
+        box-shadow: rgb(204,219,232)3px 3px 6px 0px inset, rgb(255,255,255,0,5) -3px -3px 6px 1px inset;
+    }
+    .siderbar{
+        flex: 1;
+        background: ivory;
+        padding: 20px;
+        border-radius: 25px;
+        box-shadow: rgb(204,219,232) 3px 3px 6px 0px inset, rgb(255,255,255,0,5) -3px -3px 6px 1px inset;
+    }
+    img{
+        max-width: 175px;
+        height: auto;
+    
+    }
+    footer{
+        background: beige;
+        color: bisque;
+    }
+    footer{
+        text-align: right;
+        padding: 8px 0;
+        margin-top: 20px;
+    }
+    .right{
+        float: right;
+        display: block;
+        color: beige;
+        text-align: center;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+    .column{
+        float: left;
+        width: 50%;
+        padding: 15px;
+    }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MY WEBSITE</h1>
+        <p>welcome to my website</p>
+    </header>
+    <div class="topnav">
+        <a href="a">Home </a>
+        <a href="a">Profile</a>
+        <a href="a">Content </a>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <h2>My Bestie</h2>
+            <img src="girl friend.jpg" alt="">
+            <p>Lingkaran pertemanan tidak semakin mengecil, sekarang kita hanya berbeda prioritas saja.And that's okay!
+            </p>
+            <p>Normalisasikan bahwa jarang ketemu bukan berarti pertemanan renggang . Kita hanya sesama orang dewasa yang sedang memperjuangkan hidup dan karirnya massing-masing.</p>
+            <blockquote></blockquote>
+        </div>
+    </div>
+   
+        
+    </div>
+    <div class="siderbar">
+        <h3>About Me</h3>
+        <img src="WhatsApp Image 2024-11-02 at 01.57.21_1a2c21af.jpg" alt="">
+        <p>Nama : Zalianti Lisna Maharani</p>
+        <p>Nim  : 241011700445</p>
+    </div>
+
+</body>
+</html>
